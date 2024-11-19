@@ -48,27 +48,28 @@ function Shows({ selectedMovie, setSelectedShow }) {
 
                 </div>
 
-                <p className="show-subheading">SCREENINGS</p>
+                <div className="main-show-container">
 
+                    <p className="show-subheading">SCREENINGS</p>
+                    {shows.map((show) => (
+                        <div className="show-container" key={show._id}>
+                            <button className="screenings-button" onClick={() => {
+                                setSelectedShow(show);
+                                console.log("screening:", show);
+                            }}>
 
-                {shows.map((show) => (
-                    <div className="show-container" key={show._id}>
+                                {/* new Date function taken from ChatGPT */}
+                                {new Date(show.startTime).toLocaleString('en-US', {
+                                    weekday: 'short',
+                                    day: 'numeric',
+                                    month: 'short',
+                                })}
 
-                        <button className="screenings-button" onClick={() => {
-
-                            // bestämmer vilken föreställning som blivit vald
-                            setSelectedShow(show)
-                            console.log("screening:", show)
-                        }}>
-                            {show.startTime}
-
-                            <p>{show.pricePerSeat} :-</p>
-
-                        </button>
-
-                    </div>
-
-                ))}
+                                <p>{show.pricePerSeat} :-</p>
+                            </button>
+                        </div>
+                    ))}
+                </div>
             </div>
 
 
