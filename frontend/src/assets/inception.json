@@ -1,0 +1,84 @@
+[
+    {
+      "_id": "66f9ea031f0864acf2bd1a3f",
+      "movie": {
+        "_id": "66f9ea031f0864acf2bd1a39",
+        "title": "Inception",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "genre": "Sci-Fi",
+        "releaseDate": "2010-07-16T00:00:00.000Z",
+        "director": "Christopher Nolan",
+        "duration": 148,
+        "posterUrl": "https://image.tmdb.org/t/p/original/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+        "__v": 0
+      },
+      "startTime": "2024-09-27T16:00:00.000Z",
+      "availableSeats": [
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ],
+      "bookedSeats": [
+        "A1",
+        "A2",
+        "A3",
+        "B8",
+        "B9"
+      ],
+      "roomNumber": 1,
+      "pricePerSeat": 100,
+      "endTime": "2024-09-27T18:28:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "66f9ea031f0864acf2bd1a4e",
+      "movie": {
+        "_id": "66f9ea031f0864acf2bd1a39",
+        "title": "Inception",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "genre": "Sci-Fi",
+        "releaseDate": "2010-07-16T00:00:00.000Z",
+        "director": "Christopher Nolan",
+        "duration": 148,
+        "posterUrl": "https://image.tmdb.org/t/p/original/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+        "__v": 0
+      },
+      "startTime": "2024-10-03T18:00:00.000Z",
+      "availableSeats": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B8",
+        "B9"
+      ],
+      "bookedSeats": [
+        "A1",
+        "B7",
+        "A2"
+      ],
+      "roomNumber": 2,
+      "pricePerSeat": 100,
+      "endTime": "2024-10-03T20:28:00.000Z",
+      "__v": 0
+    }
+  ]

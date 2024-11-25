@@ -1,0 +1,172 @@
+@media screen and (max-width: 480px) {
+
+
+    @font-face {
+        font-family: "Poppins Thin";
+        src: url('../assets/fonts/Poppins-Thin.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins Regular";
+        src: url('../assets/fonts/Poppins-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins SemiBold";
+        src: url('../assets/fonts/Poppins-SemiBold.ttf');
+    }
+
+    body {
+        background-color: #00030F;
+        letter-spacing: 2pt;
+    }
+
+    .shows {
+        color: white;
+        padding: 1rem;
+        padding-left: 2rem;
+    }
+
+    .selected-movie-info {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .title p {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins SemiBold";
+    }
+
+    .description {
+        font-size: 11pt;
+        font-family: "Poppins Thin";
+    }
+
+    .selected-movie-small-info p {
+        font-size: 8pt;
+        color: #DB8696;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins Thin";
+        letter-spacing: 2pt;
+    }
+
+    .show-subheading {
+        font-family: "Poppins SemiBold";
+    }
+
+
+    .screenings-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        height: 60px;
+        color: white;
+        border: 1px solid #4962BB;
+        background-color: transparent;
+        margin-bottom: 2rem;
+        letter-spacing: 2pt;
+    }
+
+
+}
+
+@media screen and (min-width: 480px) {
+
+
+    @font-face {
+        font-family: "Poppins Thin";
+        src: url('../assets/fonts/Poppins-Thin.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins Regular";
+        src: url('../assets/fonts/Poppins-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins SemiBold";
+        src: url('../assets/fonts/Poppins-SemiBold.ttf');
+    }
+
+    body {
+        background-color: #00030F;
+        letter-spacing: 2pt;
+    }
+
+    .shows {
+        color: white;
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-top: 6rem;
+        /* border: 1px solid yellow; */
+        display: flex;
+    }
+
+    .selected-movie-info {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        /* border: 1px solid green; */
+        width: 50%;
+    }
+
+    .title p {
+        /* border: 1px solid pink; */
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins SemiBold";
+    }
+
+    .description {
+        font-size: 11pt;
+        font-family: "Poppins Thin";
+    }
+
+    .selected-movie-small-info p {
+        font-size: 8pt;
+        color: #DB8696;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins Thin";
+        letter-spacing: 2pt;
+    }
+/* 
+    .show-container {
+       
+    } */
+
+    .main-show-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* border: 1px solid pink; */
+        width: 50%;
+    }
+    .show-subheading {
+      
+        font-family: "Poppins SemiBold";
+    }
+
+
+    .screenings-button {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        height: 60px;
+        color: white;
+        border: 1px solid #4962BB;
+        background-color: transparent;
+        margin-bottom: 2rem;
+        letter-spacing: 2pt;
+        padding: 15px;
+    }
+
+
+}
