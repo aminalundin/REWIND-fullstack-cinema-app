@@ -4,10 +4,8 @@ import mongoose from 'mongoose';
 
 const movieSchema = new mongoose.Schema({
   title: String,
-  posterUrl: String,
-  description: String,
-  genre: String,
-  director: String,
-  duration: String,
+ 
 });
-module.exports = mongoose.model('Movie', movieSchema);
+
+const Movie = mongoose.model('movies', movieSchema);
+export default Movie;
