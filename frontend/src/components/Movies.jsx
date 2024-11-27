@@ -31,7 +31,7 @@ function Movies({ selectedMovie, setSelectedMovie }) {
                             <div
                                 className="movie-poster"
                                 onClick={() => {
-                                    
+                                    console.log("Selected Movie:", movie);
                                     setSelectedMovie(movie);
                                 }}
                             >

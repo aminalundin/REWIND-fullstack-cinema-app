@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-// with help from ChatGPT
+// med hjälp av ChatGPT
 const seatSchema = new mongoose.Schema({
   seatNumber: { type: String, required: true }, 
   isBooked: { type: Boolean, default: false }  
