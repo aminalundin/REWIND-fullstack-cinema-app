@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import Show from './models/Shows.js'; 
 import Movie from './models/Movies.js';
+import { Types } from 'mongoose';
 
 dotenv.config();
 

@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import Movie from './Movies.js';
 
 // med hjälp av ChatGPT
 const seatSchema = new mongoose.Schema({
@@ -9,7 +10,7 @@ const seatSchema = new mongoose.Schema({
 const showSchema = new mongoose.Schema({
   movieId: { 
     type: mongoose.Schema.Types.ObjectId, 
-    ref: 'Movie', 
+    ref: {Movie}, 
     required: true 
   },
   dateTime: { 

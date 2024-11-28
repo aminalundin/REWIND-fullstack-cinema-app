@@ -7,7 +7,8 @@ function Shows({ selectedMovie, setSelectedShow }) {
    
     useEffect(() => {
         if (selectedMovie && selectedMovie._id) {
-            fetch(`/api/shows/movie/${selectedMovie._id}`)
+            console.log(selectedMovie._id);
+            fetch(`http://localhost:3000/api/shows/movie/${selectedMovie._id}`)
                 .then((res) => {
                     if (!res.ok) {
                         throw new Error('no response');
@@ -49,7 +50,7 @@ function Shows({ selectedMovie, setSelectedShow }) {
                     <p className="show-subheading">SCREENINGS</p>
 
                     {shows.length === 0 ? (
-                        <p>No screenings available for this movie.</p>
+                        <p>Not workinggg</p>
                     ) : (
                         shows.map((show) => (
                             <div className="show-container" key={show._id}>
@@ -68,7 +69,7 @@ function Shows({ selectedMovie, setSelectedShow }) {
                                         hour: 'numeric',
                                         minute: 'numeric',
                                     })}
-                                    <p>{show.seats.length} seats available</p> {/* Display number of available seats */}
+                                    <p>{show.seats.length} seats left</p> 
                                 </button>
                             </div>
                         ))
