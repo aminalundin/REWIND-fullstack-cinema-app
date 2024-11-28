@@ -66,16 +66,17 @@ app.get('/api/shows/movie/:movieId', async (req, res) => {
 app.get('/api/shows/:id', async (req, res) => {
     try {
         const showId = req.params.id;
-        const show = await Show.findById(showId); 
+        const show = await Show.findById(showId).populate('movieId'); 
         if (!show) {
-            return res.status(404).json({ error: 'show not found' });
+            return res.status(404).json({ error: 'Show not found' });
         }
         res.json(show); 
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'failed to fetch show' });
+        res.status(500).json({ error: 'Failed to fetch show' });
     }
 });
+
 
 // med hjälp av ChatGPT
 app.post('/api/bookings', async (req, res) => {
