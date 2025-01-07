@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+
+    @font-face {
+        font-family: "Poppins Thin";
+        src: url('../assets/fonts/Poppins-Thin.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins Regular";
+        src: url('../assets/fonts/Poppins-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: "Poppins SemiBold";
+        src: url('../assets/fonts/Poppins-SemiBold.ttf');
+    }
+
+    .booking {
+        padding-top: 3rem;
+        margin: 10px;
+        padding: 1rem;
+        color: white;
+    }
+
+    .booking-heading {
+        font-family: "Poppins SemiBold";
+        font-size: 16pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .booking-content {
+        font-family: "Poppins Thin";
+        font-size: 10pt;
+        padding: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-bottom: 1rem;
+        padding: 0;
+        font-size: 12pt;
+        font-family: "Poppins Thin";
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins Thin";
+    }
+
+}
